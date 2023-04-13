@@ -1,0 +1,16 @@
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 656px;
+    height: 596px;
+}
+
+@media (max-width: 425px){
+    .formcontato__text{
+        width: 296px;
+        height: 110px;
+    }
+}

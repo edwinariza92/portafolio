@@ -1,0 +1,28 @@
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 347px;
+}
+
+@media (max-width: 768px) {
+    .academic__courses {
+
+        width: 704px;
+        height: 169px;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .academic__courses {
+        flex-direction: column;
+        align-items: center;
+        width: 296px;
+        height: 539px;
+    }
+}

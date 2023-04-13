@@ -1,0 +1,31 @@
+.about__title {
+    width: 137px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    
+    /* identical to box height */
+    /* Preto/100% */
+    color: #464646;
+}
+
+@media (max-width: 768px) {
+    .about__title {
+        width: 94px;
+        height: 10px;
+        font-size: 22px;
+        line-height: 26px;
+    
+    }
+}
+@media (max-width: 425px){
+    .about__title{
+        width: 94px;
+        height: 0px;
+    }
+   
+}

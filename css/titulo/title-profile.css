@@ -1,0 +1,27 @@
+.title__profile {
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px){
+    .title__profile{
+        width: 146px;
+        height: 146px;
+        position: absolute;
+        right: 116px;
+    }
+}
+
+@media (max-width: 425px) {
+    .title__profile {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        left: 0;
+        top:59px;
+    }
+}

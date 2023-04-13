@@ -1,0 +1,12 @@
+
+.un_logo,.ccapf_logo{
+    width: 192px;
+    height: 130px;
+}
+@media (max-width: 768px) {
+    
+    .un_logo,.ccapf_logo,.alura{
+        width: 84px;
+        height: 58px;
+    }
+}

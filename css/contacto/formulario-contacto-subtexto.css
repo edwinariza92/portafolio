@@ -1,0 +1,18 @@
+.formcontato__subtext {
+    width: 656px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* Preto/100% */
+    color: #464646;
+}
+@media (max-width: 425px){
+    .formcontato__subtext{
+        width: 296px;
+height: 76px;
+    }
+}

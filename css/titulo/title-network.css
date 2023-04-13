@@ -1,0 +1,19 @@
+.title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 467px;
+    height: 24px;
+
+}
+
+@media (max-width:425px) {
+    .title__network {
+        width: 328px;
+        height: 16px;
+        gap: 8px;
+    }
+}

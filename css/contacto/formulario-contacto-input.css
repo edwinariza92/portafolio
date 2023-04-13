@@ -1,0 +1,29 @@
+.formcontato__input {
+    width: 656px;
+    height: 56px;
+    /* Preto/branco */
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.formcontato__textarea {
+    width: 656px;
+    height: 133px;
+    /* Preto/branco */
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+@media (max-width: 425px) {
+    .formcontato__input {
+        width: 296px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 425px) {
+    .formcontato__textarea {
+        width: 296px;
+        height: 133px;
+    }
+}

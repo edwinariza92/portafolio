@@ -1,0 +1,29 @@
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 406px;
+}
+
+@media (max-width: 768px) {
+
+    .experience__box {
+
+        flex-direction: column;
+        width: 704px;
+        height: 438px;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .experience__box {
+        width: 296px;
+        height: 251px;
+        gap: 0px;
+    }
+}

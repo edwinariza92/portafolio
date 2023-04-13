@@ -1,0 +1,19 @@
+.experience__img {
+    width: 752px;
+    height: 406px;
+
+}
+
+@media (max-width: 768px) {
+    .experience__img {
+        width: 704px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 425px) {
+    .experience__img {
+        width: 296px;
+        height: 144px;
+    }
+}

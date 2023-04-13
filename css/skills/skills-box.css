@@ -1,0 +1,27 @@
+.skills__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    /* Preto/branco */
+    background: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .skills__box {
+
+        width: 190px;
+        height: 118px;
+    }
+}
+
+@media (max-width: 425px) {
+    .skills__box {
+        width: 124px;
+        height: 118px;
+    }
+}
