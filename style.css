@@ -235,6 +235,10 @@ Utiliza las referencias de los breakpoints @media abajo */
         width: 768px;
         height: 291px;
     }
+    .academic__courses__box {
+        width: 296px;
+        height: 165px;
+    }
 
     /*Experiencia Profesional*/
     section.experience {
