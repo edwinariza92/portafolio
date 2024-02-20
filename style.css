@@ -48,11 +48,6 @@ https://en.bem.info/methodology/quick-start/*/
     position: absolute;
     width: 1440px;
     height: 5020px;
-    left: 0px;
-    top: 0px;
-
-    /* Preto/05% */
-
     background: #F5F5F5;
 }
 
@@ -267,7 +262,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         align-items: center;
         padding: 0px;
         width: 360px;
-        height: 4475px;
+        height: 5041px;
 
     }
 
@@ -297,7 +292,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 0px;
         gap: 10px;
         width: 360px;
-        height: 541px;
+        height: 571px;
     }
 
     /*Skills*/
@@ -311,14 +306,14 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Formación Académica*/
     section.academic {
         width: 360px;
-        height: 680px;
+        height: 770px;
         padding: 0px;
     }
 
     /*Experiencia Profesional*/
     section.experience {
         width: 360px;
-        height: 1321px;
+        height: 1487px;
         padding: 1px;
     }
 
