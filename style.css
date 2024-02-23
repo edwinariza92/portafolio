@@ -186,7 +186,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
         width: 768px;
-        height: 4379px;
+        height: max-content
 
 
     }
@@ -234,6 +234,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Experiencia Profesional*/
     section.experience {
         width: 768px;
+        height: max-content;
     }
 
     section.formcontato {
@@ -262,7 +263,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         align-items: center;
         padding: 0px;
         width: 360px;
-        height: 5041px;
+        height: max-content
 
     }
 
@@ -292,7 +293,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 0px;
         gap: 10px;
         width: 360px;
-        height: 571px;
+        height: 470px;
     }
 
     /*Skills*/
@@ -300,7 +301,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 10px;
         gap: 0px;
         width: 360px;
-        height: 700px;
+        height: 620px;
     }
 
     /*Formación Académica*/

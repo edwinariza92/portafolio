@@ -102,6 +102,7 @@
     border-radius: 50%;
 }
 .title__subsection {
+    margin-bottom: 30px;
     width: 760px;
     height: 52px;
 
